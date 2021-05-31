@@ -35,7 +35,7 @@ class ItemsProducts extends Component {
     render() {
         let items; 
         if(this.state.listProducts.length !== 0){
-         items = this.state.listProducts.forEach((x,i)=>{
+         items = this.state.listProducts.map((x,i)=>{
             if(i < 4){
             return <ProductCard
                 key={x.id}
@@ -47,6 +47,8 @@ class ItemsProducts extends Component {
                 isfreeshipping= {x.free_shipping} 
                 >
             </ProductCard>
+            }else{
+                return null 
             }
           })}else{
              items = <MLLoading></MLLoading>

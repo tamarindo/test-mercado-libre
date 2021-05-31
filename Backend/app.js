@@ -15,6 +15,17 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use(morgan('dev'))
 app.use(cors())
+// middlewares que valida credenciales de author
+app.use((req,res,next)=>{
+  const author =JSON.parse(req.headers.author);
+
+  if(author.name ==="Daniel" && author.lastname ==="Bernal"){
+    next()
+  }else{
+    res.status(401).send('no autorizado');
+  }
+  
+})
 
 
 //routes

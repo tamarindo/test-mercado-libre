@@ -18,12 +18,10 @@ export const MLHead = ({  FucUpdateArray, classAux,}) => {
     setsearch(value.target.value);
   }
   const searchProduct = (event,it) =>{
-
     if(search){
     history.push("/items?search="+search);
     FucUpdateArray(search);
     }
-
     setcount(false)  
   }
 
@@ -33,8 +31,8 @@ export const MLHead = ({  FucUpdateArray, classAux,}) => {
       if(params !== search){
         setsearch(params);
         FucUpdateArray(params);
-      };
-      setcount(true)
+      }
+      setcount(true);
     }
 
 
