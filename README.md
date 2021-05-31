@@ -12,3 +12,16 @@ ejecuta los siguientes  comandos para instalar dependencias, desde la raiz del p
 yarn --cwd ./FrontEnd install
 yarn --cwd ./Backend install
 ```
+
+## Inicializar entorno desarrollo
+En 2 terminales distintas ejecutar los siguientes comandos desde la raíz:
+```
+cd Backend
+yarn start
+```
+
+```
+cd Fronent
+yarn start
+```
+
