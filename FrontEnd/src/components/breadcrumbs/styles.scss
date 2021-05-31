@@ -1,0 +1,17 @@
+@import '../../global-styles/variables.scss';
+
+.mlBreadCrumbs {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  color: $greayScaleColor3;
+}
+
+.mlBreadCrumbs-item:after {
+  content: ">";
+  margin: 10px;
+}
+
+.mlBreadCrumbs-item:last-child::after {
+  content: "";
+}

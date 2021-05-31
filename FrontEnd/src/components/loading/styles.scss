@@ -1,0 +1,13 @@
+
+
+@import '../../global-styles/variables.scss';
+
+.MLLoading {
+  width: 100%;
+    background: white;
+  &img {
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+}

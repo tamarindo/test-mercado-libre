@@ -1,0 +1,15 @@
+
+
+@import '../../global-styles/variables.scss';
+
+button.mlButton {
+  max-width: 100%;
+  width: 234px;
+  height: 40px;
+  font-weight: bold;
+  color: $whiteColor;
+  border: 0;
+  background-color: $SegundaryColor;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
