@@ -49,7 +49,7 @@ export const MLHead = ({  FucUpdateArray, classAux,}) => {
           />
         </NavLink>
         <div className="mlHead-search w-90" >
-          <input className="mlHead-input" placeholder="Nunca ares de buscar" defaultValue={search} onChange={changeValeuSearch} 
+          <input className="mlHead-input" placeholder="Nunca pares de buscar" defaultValue={search} onChange={changeValeuSearch} 
           onKeyDown={(e)=>{if(e.key === 'Enter'){searchProduct()}}} ></input>
           <button className="mlHead-button" onClick={(e)=>searchProduct()}>
             <img 

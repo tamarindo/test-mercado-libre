@@ -1,28 +1,14 @@
 # Prueba FrontEnd para mercado libre por Daniel Bernal
 
-Aplicacion SAP en React acompañado de backend RestApi en nodejs.
+Aplicacion SPA en React acompañado de backend en nodejs.
 
-La aplicacion permite consultar las diferentes productos disponibles en el markeplace "mercadolibre.ar"atravez de un buscador y ver el detallle de los productos. Este ejercicio se rrealizo como parte de un proceso de seleción para el puesto de Front-end develepoer dentro de esta empresa
+La aplicacion permite consultar los diferentes productos disponibles en el Marketplace "mercadolibre.ar" a través de un buscador y ver el detalle de los productos. Este ejercicio se realizó como parte de un proceso de selección para el puesto de Front-end developer dentro de esta empresa.
+
 
 ## Instruciones de Instalacion
 
-ejecuta los sigueintes comandos para instalar dependencias, desde la raiz del proyecto.
+ejecuta los siguientes  comandos para instalar dependencias, desde la raiz del proyecto.
 ```
 yarn --cwd ./FrontEnd install
 yarn --cwd ./Backend install
 ```
-## Inicializar entorno desarrollo
-En 2 terminales distintas ejecutar los siguientes comandos desde la raiz:
-```
-cd Backend
-yarn start
-```
-
-```
-cd Fronent
-yarn start
-```
-
-## Inicializar entorno desarrollo
-
-pendiente...

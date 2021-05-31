@@ -1,5 +1,6 @@
 
-const BASE_URL = 'http://localhost:3001/api';
+
+const BASE_URL = process.env.URL_API || 'http://localhost:3001/api' ;
 
   async function callApi(endpoint, options = {}, body) {
  
